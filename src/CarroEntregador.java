@@ -12,9 +12,4 @@ public class CarroEntregador extends Entregador {
     public void realizarEntrega(String destino) {
         System.out.println("O carro de entrega conduzido por " + getNome() + " está em rota para: " + destino);
     }
-
-    @Override
-    public double calcularTempoEstimado(double distancia) {
-        return 0;
-    }
 }

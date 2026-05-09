@@ -20,9 +20,4 @@ public class Motoboy extends Entregador {
     public String getPlacaMoto() {
         return placaMoto;
     }
-
-    @Override
-    public double calcularTempoEstimado(double distancia) {
-        return 0;
-    }
 }
