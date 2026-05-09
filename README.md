@@ -30,3 +30,5 @@ Desenvolver um sistema orientado a objetos que gerencie o cadastro de entregador
 * **`Pedidos` (Abstract) & `PedidoEntrega`:** Gerenciamento dos dados da entrega e destino.
 * **`Entregavel` & `IPedidos` (Interfaces):** Definição de comportamentos obrigatórios.
 * **`Main`:** Classe principal com menu interativo via `Scanner`.
+* 
+* ![diagrama.svg](diagrama.svg)
