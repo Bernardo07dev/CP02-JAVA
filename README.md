@@ -24,6 +24,13 @@ Desenvolver um sistema orientado a objetos que gerencie o cadastro de entregador
 **Explicação:** A classe `Entregador` foi definida como `abstract`.
 **Justificativa:** Ela não poderia ser uma classe comum porque, no domínio de logística, não existe um "entregador genérico". Um entregador deve obrigatoriamente possuir um veículo (Moto, Carro, etc.) para operar. A abstração impede que o sistema instancie um objeto `Entregador` incompleto, garantindo a integridade das regras de negócio.
 
+## 💻 Como Executar
+1. Certifique-se de ter o Java JDK 17 ou superior instalado.
+2. Clone o repositório.
+3. Abra o projeto em sua IDE (IntelliJ, Eclipse ou VS Code).
+4. Execute a classe `Main.java`.
+5. Utilize o menu no terminal para simular as operações de logística.
+
 ## 📁 Estrutura do Projeto
 * **`Entregador` (Abstract):** Base para todos os prestadores de serviço.
 * **`Motoboy` & `CarroEntregador`:** Implementações concretas com regras de frete distintas.
